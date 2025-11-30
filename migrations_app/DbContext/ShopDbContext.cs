@@ -17,7 +17,6 @@ namespace migrations_app
             optionsBuilder.UseSqlServer(@"Server=WIN-8G40ARFN4JP\DANGERNN;Database=Shop_PV41;Integrated Security=True;TrustServerCertificate=True;");
         }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Устанавливаем отношение "один ко многим" между заказами и продуктами
